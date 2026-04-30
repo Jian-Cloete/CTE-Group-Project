@@ -81,7 +81,10 @@ public class TargetCode {
 
         @Override
         public String toString() {
-            return String.format("  %s  %s  |  %s %s", binary, operation, operand);
+            String instruction = (operand == null || operand.isEmpty())
+                    ? operation
+                    : operation + " " + operand;
+            return String.format("  %s  %s  |  %s", binary, opcode, instruction);
         }
     }
 
