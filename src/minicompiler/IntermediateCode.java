@@ -20,7 +20,7 @@ import java.util.*;
  *   Pass 1 – evaluate all * and / sub-expressions into temporaries
  *   Pass 2 – evaluate remaining + and - using results from Pass 1
  *
- * @author [Your Name]
+ * @author PJ-Amor Harakuta
  * @version 1.0
  */
 public class IntermediateCode {

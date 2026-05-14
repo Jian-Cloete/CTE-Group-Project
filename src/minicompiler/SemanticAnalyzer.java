@@ -11,7 +11,7 @@ import java.util.*;
  *
  * Runs ONLY on lines that passed Lexical and Syntax analysis.
  *
- * @author [Your Name]
+ * @author PJ-Amor Harakuta
  * @version 1.0
  */
 public class SemanticAnalyzer {
